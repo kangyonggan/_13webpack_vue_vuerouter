@@ -1,0 +1,28 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+}
+
+#app {
+    height: 100%;
+}
+
+.navbar {
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #d5d5d5;
+    padding: 0 20px;
+}
+
+.navbar .logout {
+    float: right;
+}
+
+.main {
+    width: 80%;
+    float: left;
+}

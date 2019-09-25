@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>第十三篇 webpack整合vue-router</title>
+    <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+
+<div id="app">
+    <div class="navbar">
+        <router-link to="/">后台管理系统</router-link>
+        <a class="logout" href="#">退出</a>
+    </div>
+
+    <Sidebar></Sidebar>
+
+    <div class="main">
+        <!-- 路由匹配到的组件将渲染在这里 -->
+        <router-view></router-view>
+    </div>
+</div>
+<script src="dist/main.js"></script>
+</body>
+</html>
